@@ -1,12 +1,40 @@
 # Architecting-Solutions-on-AWS
 
-**"Architecting Solutions on AWS"** is an intermediate-level course offered directly by Amazon Web Services on Coursera. It is actually Course 2 of 4 in the broader **AWS Cloud Solutions Architect Professional Certificate**. 
+# ☁️ Architecting Solutions on AWS
 
-While introductory cloud courses just tell you what the services are, this course teaches you how to think and act like a Solution Architect. You are given real-world, scenario-based problems from fictional customers and are tasked with designing the architecture to solve them. 
+## 📝 Overview
+This repository contains my coursework, architectural diagrams, and project notes for the **"Architecting Solutions on AWS"** course, offered by Amazon Web Services on Coursera. The course focuses on scenario-based learning, transitioning from basic cloud knowledge to practical solution architecture. 
 
-Here is a breakdown of what the course specifically covers and why it is highly relevant:
+The modules cover designing resilient, secure, and highly scalable cloud infrastructure, with a strong emphasis on serverless computing, real-time data analytics, containerization, and enterprise governance.
 
-### 🛠️ What You Will Learn
-* **Event-Driven & Serverless Architecture:** You get hands-on practice designing solutions using AWS Lambda, API Gateway, and Amazon DynamoDB.
-* **Data Analytics & Ingestion:** It dives heavily into the exact services we discussed earlier. You learn how to build analytics architectures using **Amazon S3, Amazon Kinesis, and Amazon Athena** to ingest, store, and visualize data. 
-* **Hybrid Architectures:** It covers how to connect on-premise infrastructure to the AWS cloud securely and efficiently using services like AWS Direct Connect and Amazon ECS (Elastic Container Service).
+---
+
+## 📚 Course Modules & Explanations
+
+### Module 1: Designing a Serverless Web Backend on AWS
+This module focuses on moving away from traditional server management to fully managed compute and database services. 
+* **Key Concepts:** Decoupling application components, event-driven architecture, and building scalable APIs.
+* **Core AWS Services:** AWS Lambda, Amazon API Gateway, Amazon DynamoDB, and Amazon Cognito.
+
+### Module 2: Designing a Serverless Data Analytics Solution on AWS
+This module explores how to build an end-to-end data pipeline capable of handling high-volume, real-time data streaming and historical batch processing without provisioning infrastructure.
+* **Key Concepts:** Data ingestion, storage (Data Lakes), serverless ETL (Extract, Transform, Load), and querying big data.
+* **Core AWS Services:** Amazon Kinesis (Data Streams & Firehose), Amazon S3, Amazon Athena, and AWS Glue.
+
+### Module 3: Designing a Hybrid Solution for Container-Based Workloads on AWS
+This module addresses enterprise scenarios where infrastructure must span both on-premise data centers and the AWS Cloud, utilizing container orchestration for consistency.
+* **Key Concepts:** Docker containerization, microservices deployment, and secure on-premise-to-cloud networking.
+* **Core AWS Services:** Amazon Elastic Container Service (ECS), AWS Fargate, Amazon Elastic Kubernetes Service (EKS), and AWS Direct Connect.
+
+### Module 4: Designing a Solution Following Account Governance and Management Best Practices
+This module covers the critical security and administrative frameworks required to manage AWS environments at an enterprise scale.
+* **Key Concepts:** Multi-account strategies, centralized billing, security compliance, and auditing resource changes.
+* **Core AWS Services:** AWS Organizations, AWS Identity and Access Management (IAM), AWS CloudTrail, and AWS Config.
+
+---
+
+## 🛠️ Technologies & Services Used
+* **Compute:** Lambda, ECS, Fargate
+* **Storage & Databases:** S3, DynamoDB
+* **Analytics & Integration:** Kinesis, Athena, Glue, API Gateway
+* **Security & Governance:** IAM, Organizations, CloudTrail
