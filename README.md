@@ -14,24 +14,36 @@ This module focuses on moving away from traditional server management to fully m
 * **Key Concepts:** Decoupling application components, event-driven architecture, and building scalable APIs.
 * **Core AWS Services:** AWS Lambda, Amazon API Gateway, Amazon DynamoDB, and Amazon Cognito.
 * **Building a Proof of Concept:** [Exercise 1. Architecting Solutions: Building a Proof of Concept for a Serverless Solution](https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/DEV-AWS-MO-Architecting/exercise-1-serverless.html)
+  
+> **Architectural Diagram: Serverless Web Backend**
+> ![Module 1 Architecture](images/module-1-architecture.png)
 
 ### Module 2: Designing a Serverless Data Analytics Solution on AWS
 This module explores how to build an end-to-end data pipeline capable of handling high-volume, real-time data streaming and historical batch processing without provisioning infrastructure.
 * **Key Concepts:** Data ingestion, storage (Data Lakes), serverless ETL (Extract, Transform, Load), and querying big data.
 * **Core AWS Services:** Amazon Kinesis (Data Streams & Firehose), Amazon S3, Amazon Athena, and AWS Glue.
 * **Building a Proof of Concept:** [Exercise 2. Architecting Solutions: Building a Proof of Concept for a Data Analytics Solution]([Insert Link Here])
+  
+> **Architectural Diagram: Data Analytics Solution**
+> ![Module 2 Architecture](images/module-2-architecture.png)
 
 ### Module 3: Designing a Hybrid Solution for Container-Based Workloads on AWS
 This module addresses enterprise scenarios where infrastructure must span both on-premise data centers and the AWS Cloud, utilizing container orchestration for consistency.
 * **Key Concepts:** Docker containerization, microservices deployment, and secure on-premise-to-cloud networking.
 * **Core AWS Services:** Amazon Elastic Container Service (ECS), AWS Fargate, Amazon Elastic Kubernetes Service (EKS), and AWS Direct Connect.
 * **Building a Proof of Concept:** [Exercise 3. Architecting Solutions: Building a Proof of Concept for a Hybrid Container Solution]([Insert Link Here])
+  
+> **Architectural Diagram: Hybrid Container Solution**
+> ![Module 3 Architecture](images/module-3-architecture.png)
 
 ### Module 4: Designing a Solution Following Account Governance and Management Best Practices
 This module covers the critical security and administrative frameworks required to manage AWS environments at an enterprise scale.
 * **Key Concepts:** Multi-account strategies, centralized billing, security compliance, and auditing resource changes.
 * **Core AWS Services:** AWS Organizations, AWS Identity and Access Management (IAM), AWS CloudTrail, and AWS Config.
 * **Building a Proof of Concept:** [Exercise 4. Architecting Solutions: Building a Proof of Concept for Account Governance]([Insert Link Here])
+  
+> **Architectural Diagram: Account Governance Solution**
+> ![Module 4 Architecture](images/module-4-architecture.png)
 
 ---
 
